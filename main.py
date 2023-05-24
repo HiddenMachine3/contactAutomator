@@ -32,11 +32,11 @@ for contact in contacts:
     # subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_DPAD_DOWN'])  # Navigate to the "Save" option
     subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])  # Select the "Save" option
     subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_BACK'])  # Go back to the main Contacts screen
-    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])  # Select the "Save" option
-    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])  # Select the "Save" option
-    subprocess.run(['adb', 'shell', 'input', 'keyevent','KEYCODE_BACK'])  # Go back to the contact creation screen for the next contact
-    subprocess.run(['adb', 'shell', 'input', 'keyevent','KEYCODE_BACK'])  # Go back to the contact creation screen for the next contact
-    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])  # Select the "Save" option
+    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])
+    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])
+    subprocess.run(['adb', 'shell', 'input', 'keyevent','KEYCODE_BACK'])
+    subprocess.run(['adb', 'shell', 'input', 'keyevent','KEYCODE_BACK'])
+    subprocess.run(['adb', 'shell', 'input', 'keyevent', 'KEYCODE_ENTER'])
     subprocess.run(['adb', 'shell', 'input', 'keyevent',
                     'KEYCODE_BACK'])  # Go back to the contact creation screen for the next contact
     subprocess.run(['adb', 'shell', 'input', 'keyevent',
